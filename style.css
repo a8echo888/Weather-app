@@ -1,0 +1,54 @@
+
+body {
+    background: linear-gradient(96deg, #3991CF, #90B9D6);
+    background-size: 400% 400%;
+    animation: GradientBackground 10s ease infinite;
+    }
+  
+@keyframes GradientBackground {
+    0% {
+        background-position: 0% 50%;
+        }
+  
+    50% {
+        background-position: 100% 50%;
+        }
+  
+    100% {
+        background-position: 0% 50%;
+        }
+}
+.container{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}     
+
+.container1{
+    align-items: center;
+    justify-content: center;
+    display:flex ;
+    margin: 10px,30%;
+}
+.icon{
+    height: 130px;
+}
+
+.diaactual .icon{
+    height: 175px;
+}
+
+.diaactual{
+    background-color: rgba(255, 255, 255, 0.308);
+    border: 6px solid #1C6EA4;
+border-radius: 40px;
+padding: 12px 12px;
+}
+
+.item{
+    border: 4px solid rgba(28,110,164,0.63);
+    border-radius: 40px;
+    margin: 7px 5px;
+    padding: 12px 12px;
+}
